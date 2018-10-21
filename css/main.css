@@ -49,3 +49,17 @@ nav ul li a {
     color: white;
     padding: 20px;
 }
+
+nav ul li a :hover {
+    border-bottom: 2px solid #D0EAF3;
+    padding-bottom: 8px;
+    color: #D0EAF3;
+}
+
+
+/* nav ul li a:hover { */
+
+
+/* border-bottom: 2px solid #ccc;
+    padding-bottom: 8px;
+} */
