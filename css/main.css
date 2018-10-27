@@ -117,7 +117,6 @@ nav ul li a:active {
     transition: 0.3s;
     width: 375px;
     height: 235px;
-    ;
 }
 
 .card:hover {
@@ -139,7 +138,7 @@ nav ul li a:active {
 }
 
 .subCardContainer {
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
 }
 
@@ -148,4 +147,11 @@ nav ul li a:active {
     font-family: Aqua_font;
     text-align: center;
     margin: 2em auto 0px auto;
+}
+
+.profile {
+    width: 245px;
+    height: 367px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
