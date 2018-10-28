@@ -24,6 +24,16 @@ body {
     src: url(../font/Nexa\ Bold.otf);
 }
 
+@font-face {
+    font-family: MightypeScript;
+    src: url(../font/Mightype\ Script.otf);
+}
+
+@font-face {
+    font-family: TheTravelista;
+    src: url(../font/TheTravelista\ -\ Demo.otf);
+}
+
 #pagewrap {
     max-width: 100%;
     width: 100%;
@@ -47,7 +57,9 @@ nav ul {
 }
 
 nav ul li {
-    font-family: Nexa_Bold;
+    font-family: TheTravelista;
+    /* font-family: Nexa_Bold; */
+    /* font-family: MightypeScript; */
     /* font-family: Mild_life_textured; */
     display: inline-block;
     font-size: 2em;
@@ -69,6 +81,10 @@ nav ul li a:active {
     padding: 20px;
     padding-bottom: 8px;
     color: #E8ECED;
+}
+
+.icon {
+    filter: opacity(.5) drop-shadow(0 0 0 #046E8F);
 }
 
 .container {
@@ -94,6 +110,7 @@ nav ul li a:active {
 .carousel {
     width: 1460px;
     height: 765px;
+    text-align: center;
     display: table-cell;
     vertical-align: middle;
     /* margin-left: -150px; */
