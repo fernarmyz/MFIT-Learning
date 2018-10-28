@@ -1,6 +1,5 @@
 body {
     background-color: #D0EAF3;
-    color: #666;
     font-family: Aqua_font, sans-serif;
     font-size: 16px;
 }
@@ -13,6 +12,16 @@ body {
 @font-face {
     font-family: Aqua_font;
     src: url(../font/aqua.ttf)
+}
+
+@font-face {
+    font-family: Mild_life_textured;
+    src: url(../font/Mild\ Life\ Regular\ Personal\ Use.otf)
+}
+
+@font-face {
+    font-family: Nexa_Bold;
+    src: url(../font/Nexa\ Bold.otf);
 }
 
 #pagewrap {
@@ -33,14 +42,17 @@ nav {
 
 nav ul {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
+    margin-bottom: -7px;
 }
 
 nav ul li {
+    font-family: Nexa_Bold;
+    /* font-family: Mild_life_textured; */
     display: inline-block;
     font-size: 2em;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
     height: 2%;
 }
 
@@ -48,20 +60,24 @@ nav ul li a,
 nav ul li a:focus {
     text-decoration: none;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav ul li a:hover,
 nav ul li a:active {
     text-decoration: none;
     padding: 20px;
-    border-bottom: 2px solid #E8ECED;
     padding-bottom: 8px;
     color: #E8ECED;
 }
 
 .container {
+    /* display: block;
+    text-align: center; */
     padding: 1.9em;
+    width: 1340px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .sliderContainer {
@@ -119,7 +135,7 @@ nav ul li a:active {
     height: 235px;
 }
 
-.card:hover {
+.card:hover:not(.profile) {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -143,15 +159,25 @@ nav ul li a:active {
 }
 
 .headtitle {
+    color: #34719e;
     font-size: 2em;
-    font-family: Aqua_font;
+    font-family: Nexa_Bold;
     text-align: center;
     margin: 2em auto 0px auto;
 }
 
-.profile {
+.profile,
+.profile a:focus {
+    text-decoration: none;
+    color: #34719e;
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); */
     width: 245px;
-    height: 367px;
+    height: 407px;
     border-radius: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile a:hover {
+    text-decoration: none;
+    color: #90b9da;
 }
