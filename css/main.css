@@ -203,7 +203,5 @@ nav ul li a:active {
 #profileScroll {
     height: 70vh;
     scroll-behavior: smooth;
-    overflow-y: scroll;
     padding: 0px;
-    /* overflow: scroll; */
 }
