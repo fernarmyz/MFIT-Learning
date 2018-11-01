@@ -96,12 +96,6 @@ nav ul li a:active {
     margin-left: auto;
 }
 
-.sliderContainer {
-    /* padding-bottom: -1.9em; */
-    width: auto;
-    margin-bottom: -28px;
-    background-color: #D1D9DC;
-}
 
 .item {
     width: 100%;
@@ -204,4 +198,21 @@ nav ul li a:active {
     height: 70vh;
     scroll-behavior: smooth;
     padding: 0px;
+}
+
+#sidebar{
+    position:fixed; 
+    width:200px;
+    height:100%;
+    background: #E8ECED;
+
+}
+#sidebar ul li{
+    color: ;
+    list-style: none;
+    padding: 15px 10px;
+    padding-left: 0.5em;
+    padding-top: 5px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+
 }
