@@ -1,7 +1,17 @@
 body {
     background-color: #D0EAF3;
-    font-family: Aqua_font, sans-serif;
+  /*  font-family: Aqua_font, sans-serif;*/
     font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+}
+.text {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    margin-left: 15em;
+    margin-top: 4.5em;
+    padding-right: 3em;
+    padding-top: 4em;
+
 }
 
 @font-face {
@@ -204,15 +214,18 @@ nav ul li a:active {
     position:fixed; 
     width:200px;
     height:100%;
-    background: #E8ECED;
+    background: #3f3f3f;
 
 }
 #sidebar ul li{
-    color: ;
+    margin-top: 1em;
+    color: #cccccc;
     list-style: none;
     padding: 15px 10px;
     padding-left: 0.5em;
     padding-top: 5px;
     border-bottom: 1px solid rgba(100,100,100,0.3);
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
 
 }
