@@ -1,169 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MFIT-Learning</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="js/main.js"></script>
-    <link rel="shortcut icon" href="icon/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+
+
+	<script src="http://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+	<title>MFIT-Learning</title>
+	<link rel="icon" href="./img/logo2.png" >
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+
+	<!-- CSS stylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	
+	<!-- Icon -->
+	<link rel="icon" href="./img/logo2.png" />
+
 </head>
-<div id="pagewrap">
 
-    <nav>
-        <ul>
-            <li>
-                <a href="#pagewrap">
-                    <img class="icon" src="icon/mfit_icon1.gif" width="48px" height="48px" alt="">
-                    <div style="display:inline-block; position:absolute; background-color:a; padding:5px 0px 20px 0px"><b>MF IT</b></div>
-                    <div style="display:inline-block; color:#046E8F "><b>MF IT</b></div>
-                    <b style=" font-family: MightypeScript; "> - Learning</b>
-                </a>
-            </li>
-
-            
-
-            <li style="float:right; font-size: 35px; padding:10px 25px 00px 0px; font-family: MightypeScript;">
-                <a href="#profileScroll">
-                    <b>about us</b>
-                </a>
-            </li>
-        </ul>
-    </nav>
+<body>
+	<!-- home page -->
+	<header id="home">
+		<!-- bg image -->
+		<div class="bg-img" style="background-image: url('./img/homebg.jpeg');">
+			<div class="overlay"></div>
+		</div>
 
 
-    <div id="lesson" style="padding-top: 5em;">
-        <div class="headtitle "></div>
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+					
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/logo-alt.png" alt="logo">
+							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
+						</a>
+					</div>
+	
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+				</div>
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#lesson">Lesson</a></li>
+					<li><a href="about.html">About us</a></li>		
+				</ul>
+			</div>
+		</nav>
 
 
-        <div class="allCardcontainer ">
-            <div class="subCardContainer ">
-
-                <a href="lessons/limit.html">
-                    <div class="card ">
-                        <img src="image/1.jpg" style="width: 375px; height: 235px; " width="50px " alt="Avatar ">
-                        <div class="card-container ">
-                            <h4>Limit</h4>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="lessons/different.html">
-                    <div class="card ">
-                        <img src="image/2.jpg" style="width: 375px; height: 235px; " width="50px " alt="Avatar ">
-                        <div class="card-container ">
-                            <h4>Differentiation</h4>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-
-            <div class="subCardContainer ">
-
-                <a href="lessons/chainrule.html">
-                    <div class="card ">
-                        <img src="image/3.jpg" style="width: 375px; height: 235px; " width="50px " alt="Avatar ">
-                        <div class="card-container ">
-                            <h4>Chain rule Differentiation</h4>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="lessons/appofdiff.html">
-                    <div class="card ">
-                        <img src="image/4.jpg" style="width: 375px; height: 235px; " width="50px " alt="Avatar ">
-                        <div class="card-container ">
-                            <h4>Application of Differentiation</h4>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-            <div class="subCardContainer ">
-
-                <a href="lessons/integrat.html">
-                    <div class="card ">
-                        <img src="image/5.jpg" style="width: 375px; height: 235px; " width="50px " alt="Avatar ">
-                        <div class="card-container ">
-                            <h4>Integration</h4>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="lessons/bypart.html">
-                    <div class="card ">
-                        <img src="image/6.jpg" style="width: 375px; height: 235px; " width="50px " alt="Avatar ">
-                        <div class="card-container ">
-                            <h4>Integration by Parts</h4>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-            <div class="subCardContainer ">
-
-                <a href="lessons/appofintegrat.html">
-                    <div class="card ">
-                        <img src="image/7.jpg" style="width: 375px; height: 235px; " width="50px " alt="Avatar ">
-                        <div class="card-container ">
-                            <h4>Application of Integration</h4>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="lessons/fourier.html">
-                    <div class="card ">
-                        <img src="image/8.jpg" style="width: 375px; height: 235px; " width="50px " alt="Avatar ">
-                        <div class="card-container ">
-                            <h4>Fourier series</h4>
-                        </div>
-                    </div>
-                </a>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="seperator "></div>
-
-    <div class="seperator "></div>
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">Mathematics for Information Technology</h1>
+							<p>“ วิชาคณิตศาสตร์ที่เอื้ออำนวยให้นักศึกษาสามารถนำไปใช้กับเทคโนโลยีสารสนเทศได้อย่างมีประสิทธิภาพ ”</p> 
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
-    <script>
-        $(document).ready(function() {
-            // Add smooth scrolling to all links
-            $("a").on('click', function(event) {
+	</header>
 
-                // Make sure this.hash has a value before overriding default behavior
-                if (this.hash !== "") {
-                    // Prevent default anchor click behavior
-                    event.preventDefault();
+	<div id="lesson" class="section md-padding">
 
-                    // Store hash
-                    var hash = this.hash;
+	
+		<div class="container">
 
-                    // Using jQuery's animate() method to add smooth page scroll
-                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 800, function() {
+			<div class="row">
 
-                        // Add hash (#) to URL when done scrolling (default click behavior)
-                        window.location.hash = hash;
-                    });
-                } // End if
-            });
-        });
-    </script>
-</div>
+				<div class="section-header text-center">
+					<h2 class="title">Lesson</h2>
+				</div>
+				<a href="limit.html">
+					<div class="col-md-4">
+						<div class="lesson1">
+							<img src="./img/Limit.png" width="334">
+						</div>
+					</div>
+				</a>
+
+				<a href="limit.html">
+					<div class="col-md-4">
+						<div class="lesson1">
+							<img src="./img/differentiation.png" width="334">
+						</div>
+					</div>
+				</a>
+
+				<a href="limit.html">
+					<div class="col-md-4">
+						<div class="lesson1">
+							<img src="./img/chain_rule.png" width="334">
+						</div>
+					</div>
+				</a>
+
+			</div>
+
+			<div class="row">
+				<a href="limit.html">
+					<div class="col-md-4">
+						<div class="lesson1">
+							<img src="./img/Application_of_Differentiation.png" width="334">
+						</div>
+					</div>
+				</a>
+
+				<a href="limit.html">
+					<div class="col-md-4">
+						<div class="lesson1">
+							<img src="./img/Integration.png" width="334">
+						</div>
+					</div>
+				</a>
+
+				<a href="limit.html">
+					<div class="col-md-4">
+						<div class="lesson1">
+							<img src="./img/Application_of_integration.png" width="334">
+						</div>
+					</div>
+				</a>
+
+							
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-12">
+					<div class="footer-logo">
+						<a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+					</div>
+					<div class="footer-copyright">
+						<p>Copyright © 2018. All Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
