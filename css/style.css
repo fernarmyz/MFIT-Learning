@@ -422,3 +422,7 @@ header {
 .article_part h4 {
     visibility: hidden;
 }
+
+.article_part b {
+    color: #1d6eb3;
+}
