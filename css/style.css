@@ -427,10 +427,6 @@ header {
     color: #1d6eb3;
 }
 
-.container {
-    width: 1340px;
-}
-
 card-container {
     padding: 2px 16px;
     position: relative;
