@@ -415,7 +415,8 @@ header {
 
 .article_part p {
     color: black;
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: left;
 }
 
 .article_part h4 {
